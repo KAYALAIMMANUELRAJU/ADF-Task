@@ -1,0 +1,22 @@
+{
+	"name": "DS_OUTPUT",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_IMMANUEL_GEN_2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "dsoutput"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
